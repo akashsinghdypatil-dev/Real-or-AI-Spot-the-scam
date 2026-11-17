@@ -1,0 +1,187 @@
+[
+  {
+    "id": "q01",
+    "type": "message",
+    "topic": "Fake KYC Update",
+    "content": "Dear Customer, your SBI YONO KYC has expired today. Account will be blocked in 2 hours. Update PAN & Aadhaar immediately at http://sbi-kyc-verify-in.co/login",
+    "options": ["Scam", "Safe"],
+    "answer": "Scam",
+    "tip": "Banks never send clickable SMS links or 2-hour account block threats for KYC updates."
+  },
+  {
+    "id": "q02",
+    "type": "message",
+    "topic": "Electricity Disconnection Threat",
+    "content": "MSEDCL Pune Alert: Your hostel/flat electricity meter will be disconnected tonight at 9:30 PM because your previous bill was not updated. Call Officer R. Sharma urgently on +91-98340XXXXX.",
+    "options": ["Scam", "Safe"],
+    "answer": "Scam",
+    "tip": "MSEDCL never threatens same-night disconnection via personal mobile numbers; verify in the official Mahavitaran app."
+  },
+  {
+    "id": "q03",
+    "type": "message",
+    "topic": "Courier Customs Fee",
+    "content": "India Post Customs: Your parcel #IN90412 is held at Mumbai Airport for unpaid ₹1,450 customs duty. Pay within 4 hours via bit.ly/ip-customs-pay or the parcel will be returned.",
+    "options": ["Scam", "Safe"],
+    "answer": "Scam",
+    "tip": "Shortened bit.ly links and urgent ₹1,450 payment threats are classic fake courier customs scams."
+  },
+  {
+    "id": "q04",
+    "type": "message",
+    "topic": "Work-from-Home Job Offer",
+    "content": "Campus Part-Time Offer: Earn ₹3,500–₹6,000 daily from your hostel by liking YouTube videos & rating Google places! Pay ₹999 refundable training fee to join our Telegram HR group.",
+    "options": ["Scam", "Safe"],
+    "answer": "Scam",
+    "tip": "Legitimate employers never ask students to pay a refundable deposit or join Telegram task groups."
+  },
+  {
+    "id": "q05",
+    "type": "message",
+    "topic": "UPI Collect Request",
+    "content": "Hi, I want to buy your used study table for ₹3,200. I've sent a ₹3,200 Collect Request on PhonePe—just tap Pay and enter your UPI PIN so the money enters your bank account!",
+    "options": ["Scam", "Safe"],
+    "answer": "Scam",
+    "tip": "You only enter your UPI PIN to SEND money, never to receive a payment."
+  },
+  {
+    "id": "q06",
+    "type": "message",
+    "topic": "Lottery Win",
+    "content": "CONGRATS! Your mobile number won ₹15,00,000 in the Youth Digital Lucky Draw 2026! Transfer ₹2,500 GST processing fee via UPI before 6 PM today to release your prize.",
+    "options": ["Scam", "Safe"],
+    "answer": "Scam",
+    "tip": "Real prizes and lotteries never ask winners to pay GST or processing fees upfront via UPI."
+  },
+  {
+    "id": "q07",
+    "type": "message",
+    "topic": "Fake Bank Call",
+    "content": "Incoming Call Transcript: 'Hello, calling from HDFC Fraud Desk. A ₹19,500 debit attempt is happening on your card right now. Read me the 6-digit OTP on your phone so I can block it.'",
+    "options": ["Scam", "Safe"],
+    "answer": "Scam",
+    "tip": "Bank fraud teams never ask you to read an OTP aloud; sharing it completes the scammer's transaction."
+  },
+  {
+    "id": "q08",
+    "type": "message",
+    "topic": "OTP Request (Official Security Alert)",
+    "content": "SBI Alert: 482910 is your OTP for ₹420 payment at IRCTC. NEVER share this OTP with anyone, including bank staff. If not initiated by you, call 1800-1234 immediately.",
+    "options": ["Scam", "Safe"],
+    "answer": "Safe",
+    "tip": "Genuine bank OTP messages include zero clickable links and explicitly warn you never to share the code."
+  },
+  {
+    "id": "q09",
+    "type": "message",
+    "topic": "Instant Loan App",
+    "content": "Zero-CIBIL Hostel Loan: Get ₹25,000 in 3 minutes with just your college ID! Download RupeeFast_v2.apk directly from our link and grant Contacts, Call Log & Gallery permissions.",
+    "options": ["Scam", "Safe"],
+    "answer": "Scam",
+    "tip": "Sideloaded .apk loan apps demanding Contacts & Gallery access harvest your data for extortion."
+  },
+  {
+    "id": "q10",
+    "type": "message",
+    "topic": "Subscription Charges (Official AutoPay Notice)",
+    "content": "UPI AutoPay Notice: Your ₹149/month Spotify Student mandate renews on 20 Nov. No action needed. To pause or cancel before debit, open your own PhonePe/GPay app > Autopay.",
+    "options": ["Scam", "Safe"],
+    "answer": "Safe",
+    "tip": "RBI mandates a 24-hour pre-debit notice with zero links—always manage subscriptions inside your official UPI app."
+  },
+  {
+    "id": "q11",
+    "type": "image",
+    "topic": "Hidden Subscription Charges",
+    "content": "/src/assets/images/q_subscription_trap_1794895726415.jpg",
+    "options": ["Scam / Trap", "Real / Safe"],
+    "answer": "Scam / Trap",
+    "tip": "Tiny grey fine print hiding auto-renewal fees under a huge 'Free Trial' button is a classic money-leak dark pattern."
+  },
+  {
+    "id": "q12",
+    "type": "image",
+    "topic": "Tampered Merchant QR Sticker",
+    "content": "/src/assets/images/q_tampered_qr_1794895726460.jpg",
+    "options": ["Scam / Trap", "Real / Safe"],
+    "answer": "Scam / Trap",
+    "tip": "Check that no crooked sticker is pasted over the merchant QR standee and verify the payee name on your screen."
+  },
+  {
+    "id": "q13",
+    "type": "image",
+    "topic": "Deepfake Video Call",
+    "content": "/src/assets/images/q_deepfake_video_call_1794895727368.jpg",
+    "options": ["AI / Scam", "Real / Safe"],
+    "answer": "AI / Scam",
+    "tip": "Blurring around the jawline and collar with mismatched lighting on an urgent video call signals a real-time deepfake."
+  },
+  {
+    "id": "q14",
+    "type": "image",
+    "topic": "AI-Generated Fake Campus Flyer",
+    "content": "/src/assets/images/q_campus_hackathon_poster_1794895727752.jpg",
+    "options": ["AI / Scam", "Real / Safe"],
+    "answer": "AI / Scam",
+    "tip": "Zoom into event flyers—garbled fine-print spelling and unverified bit.ly QR links reveal AI-generated fake posters."
+  },
+  {
+    "id": "q15",
+    "type": "image",
+    "topic": "Edited UPI Payment Screenshot",
+    "content": "/src/assets/images/q_upi_receipt_screen_1794895727984.jpg",
+    "options": ["AI / Scam", "Real / Safe"],
+    "answer": "AI / Scam",
+    "tip": "Fake payment screenshots often show misaligned digits or wrong currency symbols; verify credit inside your bank app."
+  },
+  {
+    "id": "q16",
+    "type": "audio",
+    "topic": "AI Voice Clone Emergency Call",
+    "content": "/media/audio/q16_voice_clone_emergency.mp3",
+    "transcript": "[Robotic cadence, flat room tone] 'Hey, it's me! My phone got stolen near Pune Station and I'm calling from a stranger's phone. Send ₹8,500 on this UPI ID right now, I'll explain later!'",
+    "options": ["AI / Scam", "Real / Safe"],
+    "answer": "AI / Scam",
+    "tip": "AI voice clones mimic panic and urgency; hang up and call your friend back directly on their saved number."
+  },
+  {
+    "id": "q17",
+    "type": "audio",
+    "topic": "Fake TRAI 'Digital Arrest' Robocall",
+    "content": "/media/audio/q17_digital_arrest_call.mp3",
+    "transcript": "[Automated IVR voice] 'This is Telecom Regulatory Authority of India. Your mobile number will be disconnected in 2 hours due to an illegal parcel case. Press 1 to speak to Cyber Police.'",
+    "options": ["AI / Scam", "Real / Safe"],
+    "answer": "AI / Scam",
+    "tip": "Neither TRAI nor Indian Police conduct 'digital arrests' or settle cases over phone or video calls."
+  },
+  {
+    "id": "q18",
+    "type": "audio",
+    "topic": "Campus Placement Cell Voicemail",
+    "content": "/media/audio/q18_real_placement_voicemail.mp3",
+    "transcript": "[Natural office background] 'Hi, this is Priya from D. Y. Patil B-School Placement Cell. Tomorrow's analytics mock interview is shifted to Auditorium 2 at 10:30 AM. Check your official college ERP for details.'",
+    "options": ["AI / Scam", "Real / Safe"],
+    "answer": "Real / Safe",
+    "tip": "Official campus calls direct you to your verified college ERP portal and never ask for registration fees or OTPs."
+  },
+  {
+    "id": "q19",
+    "type": "audio",
+    "topic": "Doorstep COD Delivery Call",
+    "content": "/media/audio/q19_real_delivery_call.mp3",
+    "transcript": "[Street ambient noise] 'Hello sir, I am standing at the D. Y. Patil B-School main gate with your Cash-on-Delivery book parcel. Please come collect it—no online advance payment needed.'",
+    "options": ["AI / Scam", "Real / Safe"],
+    "answer": "Real / Safe",
+    "tip": "Genuine Cash-on-Delivery couriers collect payment only in person upon handover, never via advance payment links."
+  },
+  {
+    "id": "q20",
+    "type": "audio",
+    "topic": "Official Bank Card-Block IVR",
+    "content": "/media/audio/q20_real_bank_ivr.mp3",
+    "transcript": "[Clear toll-free IVR] 'Thank you for calling Axis Bank's toll-free helpline 1860-419-5555. Your lost debit card ending 4921 has been permanently blocked as requested. No OTP is required.'",
+    "options": ["AI / Scam", "Real / Safe"],
+    "answer": "Real / Safe",
+    "tip": "When YOU dial the official helpline from the back of your card, legitimate IVRs never ask for your PIN or CVV."
+  }
+]

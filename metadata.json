@@ -1,0 +1,6 @@
+{
+  "name": "Real or AI: Spot the Scam",
+  "description": "90-second scam & deepfake awareness booth quiz for the #DYPAICoE launch at Dr. D. Y. Patil B-School, Pune.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
